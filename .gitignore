@@ -1,0 +1,26 @@
+# Datasets, archives, and audio
+data/
+*.tgz
+*.tar
+*.tar.gz
+*.zip
+*.wav
+*.flac
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated features and trained models
+features/
+models/
+*.joblib
+*.pkl
+
+# Credentials
+.env
+.env.*
+!.env.example
